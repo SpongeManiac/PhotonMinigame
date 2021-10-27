@@ -1876,8 +1876,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2058752186}
-  - component: {fileID: 2058752185}
   - component: {fileID: 2058752184}
+  - component: {fileID: 2058752185}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1910,10 +1910,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2058752183}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4433564e76b1940028e7e531f171050d, type: 3}
+  m_Script: {fileID: 11500000, guid: e78bffa9149e385479da484948eacf86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerPrefab: {fileID: 8504134213555186975, guid: 05b64e14a2ff71f4a923c272b0148816, type: 3}
+  connectControls: {fileID: 0}
+  joinControls: {fileID: 0}
 --- !u!4 &2058752186
 Transform:
   m_ObjectHideFlags: 0

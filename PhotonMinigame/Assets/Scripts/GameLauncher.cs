@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 
-public class SpaceLauncher : MonoBehaviour
+public class GameLauncher : MonoBehaviourPunCallbacks
 {
     
     //client version
@@ -33,8 +33,8 @@ public class SpaceLauncher : MonoBehaviour
     {
         if (ConnectCloud())
         {
-            joinControls.active = true;
-            connectControls.active = false;
+            joinControls.SetActive(true);
+            connectControls.SetActive(false);
         }
     }
 
