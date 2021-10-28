@@ -286,20 +286,6 @@ public class ShipController : MonoBehaviour
     }
 }
 [System.Serializable]
-public class KeyControl
-{
-    public KeyCode key;
-    public Action keyDown;
-    public Action keyUp;
-
-    public KeyControl(KeyCode key, Action keyDown, Action keyUp)
-    {
-        this.key = key;
-        this.keyDown = keyDown;
-        this.keyUp = keyUp;
-    }
-}
-[System.Serializable]
 public class FloorSensor
 {
     public Ray ray;

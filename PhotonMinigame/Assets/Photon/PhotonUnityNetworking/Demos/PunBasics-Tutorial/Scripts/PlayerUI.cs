@@ -35,7 +35,7 @@ namespace Photon.Pun.Demo.PunBasics
 	    [SerializeField]
 	    private Slider playerHealthSlider;
 
-        PlayerManager target;
+        PlayerManagerPun target;
 
 		float characterControllerHeight;
 
@@ -116,7 +116,7 @@ namespace Photon.Pun.Demo.PunBasics
 		/// Assigns a Player Target to Follow and represent.
 		/// </summary>
 		/// <param name="target">Target.</param>
-		public void SetTarget(PlayerManager _target){
+		public void SetTarget(PlayerManagerPun _target){
 
 			if (_target == null) {
 				Debug.LogError("<Color=Red><b>Missing</b></Color> PlayMakerManager target for PlayerUI.SetTarget.", this);
